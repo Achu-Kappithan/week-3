@@ -1,0 +1,173 @@
+.logo{
+    background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31);
+    border-width: .5px;
+    background-position: center;
+    background-size:100px;
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 140px;
+    margin-left: 100px;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar-nav{
+    font-size: 14px;
+}
+.navbar-text{
+    margin-right: 70px;
+}
+.section{
+    background-color: blue;
+    height: 60px;
+    text-align: center;
+}
+#assistance{
+    color: aliceblue;
+    font-size: 16px;
+    font-family: serif;
+    padding: 15px;
+}
+.container{
+    padding: 80px;
+}
+.card-title{
+    padding: 10px;
+    font-weight: bold;
+}
+.card-text{
+    text-align:left;
+    padding: 10px;
+}
+.card{
+     padding:px; 
+}
+.card-group{
+    margin: 80px;
+    margin-top: 0;
+    margin-top:auto;
+}
+.img-fluid{
+    padding: 60PX;
+    padding-top: 0;
+}
+.body-img{
+    padding: 60px;
+    padding-top: 0;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-M1-Family-02-1:VP5-1596x600);
+}
+.box-2{
+    background-color: rgb(164, 209, 32);
+    width: 50%;
+    height: 300px;
+}
+.picture{
+    width: 100%;
+    padding: 20px;
+    
+}
+.chaild-main{
+    width:100%;
+    height: 500px;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Highlight-Surface-Pro-9-M1-Family-02-1:VP5-1596x600);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    padding-top: 200px;
+}
+.chaild-1{
+    width: 60%;
+    height:100%;
+}
+.chaild-2{
+    height:100%;
+    width: 40%;
+    }
+.chaild-content{
+    text-align: center;
+    font-weight: bold;
+}
+#btn{
+    margin-left: 45%;
+}
+.contact-us{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    margin: 20px;
+}
+.socila-media{
+    display: flex;
+}
+.fb{
+    padding-right: 20px;
+}
+.tw{
+    padding-right: 20px; 
+}
+.u-tb{
+    padding-right: 20px; 
+}
+.back-to-top{
+    float: right;
+    padding-right: 10px;
+}
+.top-btn{
+    color: black;
+
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+    margin-bottom: 0;
+}
+.UL{
+    list-style-type:none;
+    font-size: 12PX;
+    color: rgb(130, 121, 121);
+}
+#H{
+    font-weight: bold;
+    font-size: 14px;
+    
+}
+.ID{
+    padding: 8px;
+}
+.base{
+    width: 100%;
+    height: 50PX;
+    display: flex;
+    justify-content: space-between;
+}
+#B-1{
+    display: flex;
+    color: black;
+}
+@media  all and (max-width:750px) {
+    .chaild-main{
+        background-color: blue;
+        display: block;
+        justify-content: center;
+        background-size: cover;
+    }
+    .chaild-2{
+        width: 100%;
+        height: 100px;
+
+    }
+    #card-group-1{
+        margin-top: 160px;
+    }
+    .foot{
+        display: block;
+    }
+    .base{
+        display: block;
+    }
+} 
